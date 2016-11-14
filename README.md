@@ -1,17 +1,21 @@
-# Ruby Brigade Helsinki at Kontena
+
+
+
+
+# Ruby Brigade Helsinki at Kontena - 14.11.2016
 
 ```
 
-  "4 wonderful ruby related things"
+  "3+1 wonderful ruby related things"
 
-
+  github.com/matti
+  @mattipaksula
   matti.paksula@appgyver.com
-  14.11.2016
 
 ```
 
 
-## 1st wonderful thing: ryby
+## +1 wonderful thing: ryby
 
 
 ```shell
@@ -46,6 +50,10 @@ ruby-brigade-at-kontena-20161114
 ```
 
 
+
+
+
+
 ```shell
 $ cd ruby-brigade-at-kontena-20161114
 ruby-2.3.1 - #gemset created /Users/mpa/.rvm/gems/ruby-2.3.1@ruby-brigade-at-kontena-20161114
@@ -57,7 +65,17 @@ $ cat Gemfile
 source 'https://rubygems.org'
 ```
 
-## 2nd wonderful thing, kontena, your own heroku
+
+(github.com/matti/ruby-brigade-at-kontena-20161114)
+
+
+
+
+
+
+## 1st wonderful thing, kontena, your own heroku
+
+Written naturally in ruby <3
 
 ```shell
 $ echo "gem 'kontena-cli'" >> Gemfile
@@ -137,7 +155,7 @@ c)
 
 
 
-## 3rd wonderful thing: docker wrappers
+## 2nd wonderful thing: docker wrappers
 
 ```shell
 $ docker run -it --rm \
@@ -211,7 +229,8 @@ Same works for other binaries like ffmpeg, youtube-dl ...
 
 
 
-## 4th wonderful thing Kommando
+
+## 3rd wonderful thing: Kommando
 
 ```shell
 $ echo "gem 'kommando'" >> Gemfile
@@ -306,6 +325,17 @@ end
 
 passwd.run
 ```
+
+## even MORE features!
+
+ - in-line shell scripts:
+  Kommando.run "$ ls -l | grep lol"
+ - Timeout support
+ - stdout / stderr to a file
+ - kill process
+ - callbacks on events like "start", "exited"
+ - exit codes etc
+
 
 
 
